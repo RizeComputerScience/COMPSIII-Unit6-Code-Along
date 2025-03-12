@@ -22,7 +22,22 @@ By the end of this code along, our recruiting firm will be able to store informa
 5. The `companies` and `candidates` tables may already exist in the database. Using `.execute()`, call the `DROP TABLE IF EXISTS` SQL command.
 6. Create the `companies` and `candidates` tables using `.execute()` and `CREATE TABLE`.
 7. Run the tests! The `test_companies_table_exists`, `test_candidates_table_exists`, `test_companies_table_columns`, and `test_candidates_table_columns` tests should now be passing.
-8. Insert values into the `companies` and `candidates` tables using `.execute()` and `INSERT INTO...VALUES`.
+8. Insert values below into the `companies` and `candidates` tables using `.execute()` and `INSERT INTO...VALUES`.
+
+| `company_name` | `industry` | `location` |
+| -------------- | ---------- | ---------- |
+| TechCorp | Software | San Francisco |
+| DataDynamics | Data Analytics | Boston |
+| CloudNine | Cloud Computing | Seattle |
+
+| `first_name` | `last_name` | `email` | `years_experience` | `primary_skill` |
+| ------------ | ----------- | ------- | ------------------ | --------------- |
+| John | Smith | john.smith@email.com | 5 | Python |
+| Sarah | Johnson | sarah.j@email.com | 3 | Data Science |
+| Michael | Lee | michael.lee@email.com | 7 | Cloud Architecture |
+| Emma | Wilson | emma.w@email.com | 2 | Frontend Development |
+| James | Brown | james.b@email.com | 4 | Python |
+
 9. Commit the transaction using the command `connection.commit()`
 10. Using a `SELECT` command and `.execute()` get the data stored in each table. Call `.fetchall()` on the returned values. Print out the values in each table.
 11. Print out the 2nd and 3rd candidates that were returned.
