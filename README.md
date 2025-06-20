@@ -1,4 +1,4 @@
-# COMPS III: Unit 5 Code Along
+# COMPS III: Unit 6 Code Along
 
 You are working for a recruiting firm called Tech Talent and need to create a database that allows the company to store information about (1) companies that use your service and (2) candidates that you have sourced. This week we will be creating, reading, updating, and deleting values stored in companies and candidates tables in order to begin building out our database functionality. The values that will be stored in each of these tables are represented in the entity diagrams shown below.
 
